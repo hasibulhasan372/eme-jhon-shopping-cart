@@ -1,0 +1,11 @@
+.shopping-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 60px;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 35px;
+    margin: 0px 82px 0 104px;
+}
